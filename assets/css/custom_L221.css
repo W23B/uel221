@@ -119,3 +119,15 @@ article form input:hover {
 
 /* partie background */
 
+body {
+  background-image: url("../img/background.png");
+  background-size: cover;
+
+  animation: defilement 60s linear infinite;
+
+}
+
+@keyframes defilement {
+  from { background-position: 0 0; }
+  to   { background-position: -2048px 0; }  /* = exactement la largeur de background-size */
+}
