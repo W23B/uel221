@@ -143,6 +143,8 @@ main article .infos-article span {
   border-radius: 20px;
 }
 
+/* partie originale désactivée pour permettre au nouveau code de fonctionner
+
 .interdit {
   background-color: red;
 }
@@ -154,6 +156,8 @@ main article .infos-article span {
 .libre {
   background-color: green;
 }
+
+*/
 
 article form {
   background-color: var(--color-green);
