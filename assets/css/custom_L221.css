@@ -120,7 +120,7 @@ article form input:hover {
 /* partie background */
 
 body {
-  background-image: url("../img/background.png");
+  background-image: url("assets/img/background.png");
   background-size: cover;
 
   animation: defilement 60s linear infinite;
